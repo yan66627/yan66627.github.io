@@ -52,6 +52,6 @@ My latest CV is available in the **CV** tab on the navigation bar.
 
 - **Email:** yjin66627@gmail.com  
 - **GitHub:** yan66627  
-- **LinkedIn:** see sidebar  
+- **LinkedIn:** http://linkedin.com/in/yan-jin-080246236 
 
 Feel free to reach out for research discussions or collaboration!
