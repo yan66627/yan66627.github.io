@@ -1,8 +1,8 @@
 ---
 layout: home
-permalink: /
 title: "Yan Jin"
 author_profile: true
 ---
 
-{% include_relative _pages/home.md %}
+Welcome to my homepage!  
+This site introduces my research, publications, projects, and more.
