@@ -1,9 +1,14 @@
 # Basic Site Settings
+
+include:
+  - index.md
+
 locale: "en-US"
 site_theme: "default"
 title: "Yan Jin"
 title_separator: "-"
 name: "Yan Jin"
+
 description: "Biostatistics MS | Genomics & Functional Genomics | Single-cell & Spatial Transcriptomics"
 url: "https://yan66627.github.io"
 baseurl: ""
