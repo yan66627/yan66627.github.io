@@ -1,12 +1,16 @@
-.page__content {
-  margin-left: 60px;   // 控制内容往右移
+/* 让整个页面整体居中并靠右一点 */
+.page {
+  max-width: 1100px;
+  margin: 0 auto;       /* 水平居中 */
+  padding-left: 2rem;   /* 可根据需要调节靠右程度 */
 }
 
+/* 让 sidebar 不再紧贴左边 */
 .sidebar {
-  margin-left: 30px;   // 让左边 sidebar 也右移一点
+  margin-left: 1rem;
 }
 
-.wrap {
-  max-width: 1200px;   // 让页面更居中
-  margin: 0 auto;      // 居中整个主体
+/* 内容区域微调 */
+.page__content {
+  padding-left: 1rem;
 }
