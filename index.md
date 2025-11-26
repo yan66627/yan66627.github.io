@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Yan Jin"
 author_profile: true
 ---
