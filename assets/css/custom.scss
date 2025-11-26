@@ -1,16 +1,15 @@
-/* 让整个页面整体居中并靠右一点 */
+/* 覆盖 main 容器，让整体水平居中 */
+#main {
+  max-width: 1000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* 覆盖 page 的 grid 布局，让它全宽 */
 .page {
-  max-width: 1100px;
-  margin: 0 auto;       /* 水平居中 */
-  padding-left: 2rem;   /* 可根据需要调节靠右程度 */
-}
-
-/* 让 sidebar 不再紧贴左边 */
-.sidebar {
-  margin-left: 1rem;
-}
-
-/* 内容区域微调 */
-.page__content {
-  padding-left: 1rem;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
 }
