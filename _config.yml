@@ -1,8 +1,5 @@
 # Basic Site Settings
 
-include:
-  - index.md
-
 locale: "en-US"
 site_theme: "default"
 title: "Yan Jin"
