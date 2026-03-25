@@ -74,6 +74,6 @@ My latest CV is available in the CV tab on the navigation bar.
 📫 **Contact**  
 Email: yjin66627@gmail.com  
 GitHub: yan66627  
-LinkedIn: http://linkedin.com/in/yan-jin-080246236 
+LinkedIn: [yan-jin-080246236](https://www.linkedin.com/in/yan-jin-080246236) 
 
 Feel free to reach out for research discussions or collaboration!
