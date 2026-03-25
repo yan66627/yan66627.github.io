@@ -1,8 +1,37 @@
-.home {
-  #main {
-    max-width: 60rem;   // 调整首页宽度
-    margin: 0 auto;     // 居中
-    padding-left: 2rem; // 左右 padding
-    padding-right: 2rem;
+/* ==========================================================================
+   HOME PAGE CUSTOM STYLES
+   ========================================================================== */
+
+/* Improve content readability with better spacing */
+.page__content {
+  line-height: 1.75;
+
+  p {
+    margin-bottom: 1.2em;
+  }
+
+  ul, ol {
+    padding-left: 1.5em;
+    margin-bottom: 1.2em;
+
+    li {
+      margin-bottom: 0.4em;
+    }
+  }
+
+  h2, h3, h4 {
+    margin-top: 1.8em;
+    margin-bottom: 0.6em;
+  }
+}
+
+/* Ensure the main content area has proper padding */
+#main {
+  padding-left: 2em;
+  padding-right: 2em;
+
+  @include breakpoint($large) {
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }

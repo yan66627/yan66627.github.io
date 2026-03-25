@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Yan Jin"
 author_profile: true
 ---
