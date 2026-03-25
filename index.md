@@ -68,6 +68,12 @@ Merges two GEO count datasets (GSE220168 + GSE205885), applies CPM-based pre-fil
 Epidemiological analysis of blood pressure control in hypertensive patients. Fits multivariable logistic regression (BP control) and linear regression (systolic BP) adjusting for demographics and comorbidities. Generates publication-ready tables with gtsummary.
 `R` · gtsummary · dplyr · [`code`](https://github.com/yan66627/yan66627.github.io/blob/master/_portfolio/hypertension_regression_analysis.R)
 
+---
+
+**TaRGET II — ATAC-seq Differential Accessibility & Motif-to-Gene Pipeline**
+Identified differentially accessible chromatin regions (DARs) in BPA-exposed male adult liver samples (TaRGET II consortium, mm10) using edgeR + RUVr (k=3) normalization across a 9-lab shared control cohort. Built a batch HOMER motif scanning pipeline that scans ATAC-seq peak files for TF motif hits, converts results to sorted BED format, and maps each peak to the nearest TSS within 1 Mb using bedtools closest. Also annotated a 4.2M-row OCR dataset with AWK-based pipelines linking peaks to gene bodies and regulatory elements.
+`Bash` · HOMER · bedtools · edgeR · RUVr · AWK · [`code`](https://github.com/yan66627/yan66627.github.io/blob/master/_portfolio/target_ii_atac_pipeline.sh)
+
 📄 **CV**  
 My latest CV is available in the CV tab on the navigation bar.
 
