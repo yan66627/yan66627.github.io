@@ -56,6 +56,18 @@ Batch GO enrichment analysis pipeline for TF motif target genes. Reduces redunda
 Utility functions to map HOMER/FIMO motif hits back to precise genomic coordinates using peak center + offset, with strand-aware endpoint adjustment and IRanges-based overlap deduplication.
 `R` · IRanges · Bioconductor · [`code`](https://github.com/yan66627/yan66627.github.io/blob/master/_portfolio/motif_location_utils.R)
 
+---
+
+**RNA-seq Differential Expression Pipeline**
+Merges two GEO count datasets (GSE220168 + GSE205885), applies CPM-based pre-filtering (CPM > 1 in ≥ 3 samples), and runs DESeq2 to identify DHT-responsive genes. Outputs stratified up/down gene lists and a volcano plot.
+`R` · DESeq2 · ggplot2 · [`code`](https://github.com/yan66627/yan66627.github.io/blob/master/_portfolio/rnaseq_deg_pipeline.R)
+
+---
+
+**Hypertension Study — Logistic & Linear Regression**
+Epidemiological analysis of blood pressure control in hypertensive patients. Fits multivariable logistic regression (BP control) and linear regression (systolic BP) adjusting for demographics and comorbidities. Generates publication-ready tables with gtsummary.
+`R` · gtsummary · dplyr · [`code`](https://github.com/yan66627/yan66627.github.io/blob/master/_portfolio/hypertension_regression_analysis.R)
+
 📄 **CV**  
 My latest CV is available in the CV tab on the navigation bar.
 
