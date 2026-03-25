@@ -6,7 +6,7 @@ author_profile: true
 
 Welcome!
 
-I am Yan Jin, currently pursuing an M.S. in Biostatistics at Washington University in St. Louis.
+I am Yan Jin, a recent M.S. graduate in Biostatistics from Washington University in St. Louis. I received my B.S. in Biological Sciences from the University of California, Irvine in 2023.
 
 My research interests include:
 
